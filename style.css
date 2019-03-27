@@ -57,11 +57,13 @@ html a{
     color:#000000;
     text-decoration:underline
 }
-/*
+
+
 html a:hover {
-    color: #CCCC99;
+    color: #6699ff;
 }
-*/
+
+
 body{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -131,6 +133,7 @@ body{
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
+    
 
 @media (min-width : 480px) and (max-width : 1200px){.index-masthead{
     margin-bottom:30px
@@ -234,7 +237,9 @@ body{
     
 }.index-wrapper .article-even{
     padding-left:3%;
+    
 }
+
 
 @media (min-width : 480px) and (max-width : 1200px){.index-wrapper .article-even{
     width:100%
@@ -249,7 +254,7 @@ body{
 }
     
 }.index-wrapper .article-even .author{
-    text-indent:7%;
+    text-indent:0%;
     
 }
 
@@ -263,7 +268,7 @@ body{
 
 .index{
     font-size:54px;
-    line-height:60px;
+    line-height:120%;
     letter-spacing:-1px;
     -webkit-transition:0.2s ease;
     -moz-transition:0.2s ease;
@@ -274,12 +279,13 @@ body{
 
 @media (max-width: 480px) and (min-width: 320px){.index{
     font:24px 'Maria Pro',Helvetica,Arial,sans-serif;
-    letter-spacing:0
+    letter-spacing:0;
+    line-height:115%;
 }
     
 }@media (min-width: 1600px){.index{
     font-size:80px;
-    line-height:90px
+    line-height:115%;
 }
     
 }@media (min-width : 480px) and (max-width : 1200px){.index{
@@ -292,7 +298,7 @@ body{
 }.author{
     font-family:'Cormorant Garamond', serif;
     letter-spacing:-1px;
-    text-indent:7%;
+    line-height: 150%;
     -webkit-transition:0.2s ease;
     -moz-transition:0.2s ease;
     -o-transition:0.2s ease;
@@ -301,7 +307,7 @@ body{
 }
 
 .author:after{
-    content:" —"
+    content:""
 }
 
 @media (max-width: 480px) and (min-width: 320px){.author{
@@ -751,7 +757,7 @@ footer .footer-colophon{
 }
 
 .article-mast a{
-    text-decoration:none
+    text-decoration:none;
 }
 
 @media (max-width: 480px) and (min-width: 320px){.article-mast{
@@ -760,7 +766,7 @@ footer .footer-colophon{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    background:#fff;
+    background:#ffffff;
     z-index:100;
     padding:15px 0 15px 0;
     margin-bottom:60px;
@@ -788,7 +794,7 @@ footer .footer-colophon{
     -o-transition:0.5s ease;
     -ms-transition:0.5s ease;
     transition:0.5s ease;
-    line-height:25px;
+    
 }
 
 
@@ -837,7 +843,8 @@ footer .footer-colophon{
     -moz-box-sizing:border-box;
     box-sizing:border-box;
     margin:0;
-    padding:20px
+    padding:20px;
+    
 }
     
 }@media (min-width : 480px) and (max-width : 1200px){.article-wrapper{
@@ -851,7 +858,7 @@ footer .footer-colophon{
     
 }.article-heading{
     position:relative;
-    left:3.5%;
+    left:9%;
     width:70%;
     max-width:1200px;
     padding:10px;
@@ -862,6 +869,7 @@ footer .footer-colophon{
     width:100%;
     margin-top:80px;
     padding:0;
+    left:0%;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box
@@ -869,6 +877,7 @@ footer .footer-colophon{
     
 }@media (min-width : 480px) and (max-width : 1200px){.article-heading{
     width:90%;
+    left:3.5%;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box
@@ -876,35 +885,39 @@ footer .footer-colophon{
     
 }.article-title{
     display:inline-block;
-    padding:0;
     letter-spacing:-1px;
     font:62px 'Maria Pro',Helvetica,Arial,sans-serif;
+    line-height:115%;
 }
 
 @media (min-width : 480px) and (max-width : 1200px){.article-title{
-    font-size:40px
+    font-size:40px;
+    line-height:110%;
 }
     
 }@media (max-width: 480px) and (min-width: 320px){.article-title{
     font-size:22px;
-    letter-spacing:0
+    letter-spacing:0;
+    line-height:120%;
 }
     
 }.article-author{
     font:54px 'Cormorant Garamond', serif;
     margin:0;
     line-height:60px;
-    text-indent:13%;
+    
     position:relative;
 }
 
 @media (min-width : 480px) and (max-width : 1200px){.article-author{
-    font-size:40px
+    font-size:40px;
+    
 }
     
 }@media (max-width: 480px) and (min-width: 320px){.article-author{
     font-size:22px;
-    line-height:26px
+    line-height:26px;
+    
 }
     
 }.intro-text{
@@ -997,6 +1010,10 @@ footer .footer-colophon{
 .article-body sup a{
     color:#000000;
     text-decoration:none
+}
+
+.article-body sup:hover{
+    background-color: #6699ff;
 }
 
 .article-body ol{
@@ -1101,7 +1118,10 @@ footer .footer-colophon{
     background-color: #ffffff;
     padding: 12px;
     border: 1px #ffffff ;
+    
 }
+
+
 
 .footnotes{
     font:12px Helvetica,Arial,sans-serif; 
@@ -1137,12 +1157,7 @@ footer .footer-colophon{
 }
     
     
-/*! FIX
-}.article-footnote-side .footnote-number{
-    padding-left:13%;
-    font-weight: bold;
-}
-*/
+
 
 .reading{
     margin-bottom:10px;
