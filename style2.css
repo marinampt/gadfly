@@ -191,10 +191,10 @@ footer .twitter img{width:20px;margin-right:10px}
 }
 
 
-.issues-title{font:54px 'Perpetua',"Times New Roman",serif;text-align:center;margin:40px 0;}
+.issues-title{font:54px 'Perpetua',"Times New Roman",serif; text-align:center;margin:40px 0;}
 @media (min-width : 480px) and (max-width : 1200px){.issues-title{font-size:18px}
 }@media (max-width: 480px) and (min-width: 320px){.issues-title{font-size:18px}
-}.issues-links a{text-decoration:none}
+}.issues-links a{text-decoration:none,padding:20px}
 .issues-article{font-size:40px;margin:40px 0;}
 .issues-article a{text-decoration:none}
 @media (min-width : 480px) and (max-width : 1200px){.issues-article{font-size:40px;padding:20px}
@@ -204,7 +204,7 @@ footer .twitter img{width:20px;margin-right:10px}
 .issues-overview{width:75%;margin:0 auto;}
 @media (max-width: 480px) and (min-width: 320px){.issues-overview{width:100%}
 }@media (min-width : 480px) and (max-width : 1200px){.issues-overview{width:100%}
-}.issues-overview p{margin:0 0 30px 0;text-indent:13%;}
+}.issues-overview p{margin:30px;text-indent:13%;}
 .issues-overview p:first-of-type{text-indent:0 !important}
 
 
@@ -341,11 +341,14 @@ progress::-moz-progress-bar{background-color:transparent}
 
 
 .issue-description {
-  flex: 0 0 75%;
+  flex: 0 0 60%;
+    line-height: 110%;
 }
 .issue-landing-number {
-  font:54px 'Maria Pro',Helvetica,Arial,sans-serif;
+  font:44px 'Maria Pro',Helvetica,Arial,sans-serif;
+   font-weight:bold;
   display: inline-block;
+
 }
 .issue-date {
   display: block;
@@ -354,6 +357,7 @@ progress::-moz-progress-bar{background-color:transparent}
 @media (max-width: 780px) {
   .issue-section {
     flex: 1 0 40%;
+          line-height: 110%;
   }
 }
 
