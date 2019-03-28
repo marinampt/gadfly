@@ -400,7 +400,7 @@ footer .twitter img{width:20px;margin-right:10px}
 }.article-contributors{
     font:64px 'Cormorant Garamond', serif;
     margin:0;
-    line-height:100px;
+    line-height:160px;
     left:-5%;
         position:relative;
     text-align: center;
@@ -416,7 +416,7 @@ footer .twitter img{width:20px;margin-right:10px}
     
 }@media (max-width: 480px) and (min-width: 320px){.article-contributors{
     font-size:22px;
-    line-height:26px;
+    line-height:66px;
     left:0%;
     text-align: center;
     
