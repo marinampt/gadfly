@@ -922,19 +922,20 @@ footer .footer-colophon{
     font:54px 'Cormorant Garamond', serif;
     margin:0;
     line-height:60px;
+    text-transform:uppercase;
     
     position:relative;
 }
 
 @media (min-width : 480px) and (max-width : 1200px){.article-author{
     font-size:40px;
-    
+    text-transform:uppercase;
 }
     
 }@media (max-width: 480px) and (min-width: 320px){.article-author{
     font-size:22px;
     line-height:26px;
-    
+    text-transform:uppercase;
 }
     
     
