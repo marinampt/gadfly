@@ -459,6 +459,7 @@ body{
     position:fixed;
     top:30px;
     right:7%;
+    
 }
 
 @media (max-width: 480px) and (min-width: 320px){.issue-number{
@@ -721,6 +722,7 @@ footer .footer-colophon{
 .issues-article{
     font-size:40px;
     margin:40px 0;
+    
 }
 
 .issues-article a{
@@ -1472,6 +1474,7 @@ progress::-moz-progress-bar{
 }
 .issue-date {
   display: block;
+
   
 }
 
