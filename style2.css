@@ -534,6 +534,7 @@ progress::-moz-progress-bar{background-color:transparent}
     letter-spacing:1px;
     text-transform: uppercase;
     line-height: 120%;
+    background-color: white;
 }
 
 @media (max-width: 780px) {
