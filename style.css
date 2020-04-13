@@ -60,7 +60,7 @@ html a{
 
 
 html a:hover {
-    color: #6699ff;
+    color: #ef3b2f;
 }
 
 
@@ -68,7 +68,7 @@ body{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    font-family:'Maria Pro',Helvetica,Arial,sans-serif;
+    font-family:Helvetica,Arial,sans-serif;
     -webkit-transition:opacity 0.2s;
     -moz-transition:opacity 0.2s;
     -o-transition:opacity 0.2s;
@@ -107,13 +107,13 @@ body{
 
 @media screen and (-webkit-min-device-pixel-ratio:0){@font-face{
     font-family:'Maria Pro';src:url("../fonts/maria.svg#Maria Pro") format('svg')}
-}@font-face{font-family:'Cormorant Garamond', serif;
+}@font-face{font-family:Helvetica, Arial, sans-serif;
     font-weight:'normal';
     font-style:normal
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0){@font-face{
-    font-family:'Cormorant Garamond', serif;
+    font-family:Helvetica, Arial, sans-serif;
    }em{font-style:italic}
 
 .main{
@@ -132,6 +132,7 @@ body{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
+    
 }
     
 
@@ -145,12 +146,12 @@ body{
     }
     
 }.index-masthead-avery{
-    font:54px 'Maria Pro',Helvetica,Arial,sans-serif;
-    letter-spacing:-1px;
+    font:54px Helvetica,Arial,sans-serif;
+    letter-spacing:10px;
 }
 
 @media (max-width: 480px) and (min-width: 320px){.index-masthead-avery{
-    font:24px 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:24px Helvetica,Arial,sans-serif;
     letter-spacing:0;
     width:100%;
     text-align:center;
@@ -173,7 +174,7 @@ body{
     width:70%;
     font:54px Helvetica,Arial,sans-serif;
     line-height: 120%;
-    letter-spacing:-1px;
+    letter-spacing:0.5px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
@@ -280,7 +281,7 @@ body{
 .index{
     font-size:25px;
     line-height:120%;
-    letter-spacing:-1px;
+    letter-spacing:0.5px;
     -webkit-transition:0.2s ease;
     -moz-transition:0.2s ease;
     -o-transition:0.2s ease;
@@ -289,7 +290,7 @@ body{
 }
 
 @media (max-width: 480px) and (min-width: 320px){.index{
-    font:24px 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:24px Helvetica,Arial,sans-serif;
     letter-spacing:0;
     line-height:125%;
 }
@@ -307,8 +308,8 @@ body{
     
     
 }.author{
-    font-family:'Cormorant Garamond', serif;
-    letter-spacing:-1px;
+    font-family:Helvetica, Arial, sans-serif;
+    letter-spacing:0.5px;
     line-height: 150%;
     -webkit-transition:0.2s ease;
     -moz-transition:0.2s ease;
@@ -323,7 +324,7 @@ body{
 
 @media (max-width: 480px) and (min-width: 320px){.author{
     font:24px 
-    font-family:'Cormorant Garamond', serif;
+    font-family:Helvetica, Arial, sans-serif;
     letter-spacing:0
 }
     
@@ -404,7 +405,7 @@ body{
   display: block;
   text-align: center;
   padding-top: 40px;
-    font:15px 'Cormorant Garamond', serif;
+    font:15px Helvetica, Arial, sans-serif;
     letter-spacing:1px;
     text-decoration: none;
     
@@ -483,7 +484,7 @@ body{
 }
     
 }footer{
-    border-top:1px solid #6699ff;
+    border-top:1px solid #ef3b2f;
     padding-left:30px;
     padding-right:60px;
     -webkit-box-sizing:border-box;
@@ -528,7 +529,7 @@ footer .footer-colophon{
     background:none;
     border-bottom:2px solid #000000;
     border-left:none;
-    font:100% 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:100% Helvetica,Arial,sans-serif;
     border-right:none;
     border-top:none;
     line-height:36px;
@@ -539,7 +540,7 @@ footer .footer-colophon{
 
 @media (max-width: 480px) and (min-width: 320px){footer input{
     width:210px;
-    font:90% 'Maria Pro',Helvetica,Arial,sans-serif
+    font:90% Helvetica,Arial,sans-serif
 }
     
 }footer input[type="submit"]{
@@ -553,9 +554,9 @@ footer .footer-colophon{
 }
 
 .search-results{
-    font:54px 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:54px Helvetica,Arial,sans-serif;
     padding:30px;
-    letter-spacing:-1px;
+    letter-spacing:0.5px;
     width:70%;
     position:relative;
     left:50%;
@@ -594,7 +595,7 @@ footer .footer-colophon{
     border-top:none;
     line-height:35px;
     padding:10px;
-    font:18px 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:18px Helvetica,Arial,sans-serif;
     outline:none
 }
 
@@ -637,7 +638,7 @@ footer .footer-colophon{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    font:54px 'Cormorant Garamond', serif;
+    font:54px Helvetica, Arial, sans-serif;
     background-color:#fff;
 }
 
@@ -647,11 +648,11 @@ footer .footer-colophon{
     -o-transform:translate3d(0,0,0) !important;
     -ms-transform:translate3d(0,0,0) !important;
     transform:translate3d(0,0,0) !important;
-    border-bottom:3px solid #6699ff;
+    border-bottom:3px solid #ef3b2f;
 }
 
 @media (max-width: 480px) and (min-width: 320px){.menu{
-    font:40px 'Cormorant Garamond', serif;
+    font:40px Helvetica, Arial, sans-serif;
 }
     
 }.menu a{
@@ -709,7 +710,7 @@ footer .footer-colophon{
 }
 
 .issues-title{
-    font:54px 'Cormorant Garamond', serif;
+    font:54px Helvetica, Arial, sans-serif;
     text-align:center;
     margin:40px 0;
 }
@@ -748,7 +749,7 @@ footer .footer-colophon{
 }
     
 }.issues-author{
-    font-family:'Cormorant Garamond', serif;
+    font-family:Helvetica, Arial, sans-serif;
     text-indent:0%
 }
 
@@ -780,7 +781,7 @@ footer .footer-colophon{
 }
 
 .article-mast{
-    font:24px 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:24px Helvetica,Arial,sans-serif;
     text-align:center;
     padding-top:15px;
     margin:0 auto;
@@ -915,8 +916,8 @@ footer .footer-colophon{
     
 }.article-title{
     display:inline-block;
-    letter-spacing:-1px;
-    font:62px 'Maria Pro',Helvetica,Arial,sans-serif;
+    letter-spacing:0.5px;
+    font:62px Helvetica,Arial,sans-serif;
     line-height:115%;
 }
 
@@ -932,11 +933,10 @@ footer .footer-colophon{
 }
     
 }.article-author{
-    font:54px 'Cormorant Garamond', serif;
+    font:54px Helvetica, Arial, sans-serif;
     margin:0;
     line-height:60px;
     text-transform:uppercase;
-    
     position:relative;
 }
 
@@ -954,7 +954,7 @@ footer .footer-colophon{
     
     
 }.article-motto{
-    font:64px 'Cormorant Garamond', serif;
+    font:64px Helvetica, Arial, sans-serif;
     margin:0;
     line-height:100px;
     left:-12%;
@@ -986,7 +986,7 @@ footer .footer-colophon{
 }.intro-text{
     width:55%;
     position:relative;
-    font:30px 'Cormorant Garamond', serif;
+    font:30px Helvetica, Arial, sans-serif;
     -webkit-font:antialiased;
     line-height:36px;
     margin:0 auto 25px 55px;
@@ -995,7 +995,7 @@ footer .footer-colophon{
 @media (min-width : 480px) and (max-width : 1200px){.intro-text{
     width:80%;
     position:relative;
-    font:18px 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:18px Helvetica,Arial,sans-serif;
     -webkit-font:antialiased;
     line-height:25px;
     margin:0 auto 0 auto;
@@ -1004,7 +1004,7 @@ footer .footer-colophon{
 }@media (max-width: 480px) and (min-width: 320px){.intro-text{
     width:100%;
     position:relative;
-    font:18px 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:18px Helvetica,Arial,sans-serif;
     -webkit-font:antialiased;
     line-height:25px;
     margin:0 auto 0 auto;
@@ -1022,7 +1022,7 @@ footer .footer-colophon{
 }.article-body{
     width:52%;
     position:relative;
-    font:18px 'Maria Pro',Helvetica,Arial,sans-serif;
+    font:18px Helvetica,Arial,sans-serif;
     -webkit-font:antialiased;
     line-height:25px;
     margin:0 auto 100px auto;
@@ -1054,20 +1054,20 @@ footer .footer-colophon{
     vertical-align:baseline;
     display:inline;
     position:relative;
-    top:-.8em;
+    top:-.10em;
     margin-right:2px;
-    padding:4px;
-    opacity:.8;
+    padding:2px;
+    opacity:none;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter:alpha(opacity=80);
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    width:20px;
-    height:5px;
-    margin-left:5px;
-    font-weight:bold;
-    border-bottom:2px solid #fc0;
+    width:15px;
+    height:2px;
+    margin-left:3px;
+    font-weight:none;
+    border-bottom:2px solid #ef3b2f;
 }
 
 .article-body sup a{
@@ -1076,7 +1076,7 @@ footer .footer-colophon{
 }
 
 .article-body sup:hover{
-    background-color: #6699ff;
+    background-color: #ef3b2f;
 }
 
 .article-body ol{
@@ -1095,19 +1095,19 @@ footer .footer-colophon{
     margin-left:7.4%;
     margin-bottom:20px;
     margin-top:20px;
-    font:15px 'Cormorant Garamond', serif;
+    font:15px Helvetica, Arial, sans-serif;
     letter-spacing:1px;
     line-height:20px;
-    text-transform:uppercase;
+    text-transform:none;
 }
 
 .article-bio{
-    font:14px 'Cormorant Garamond', serif;
+    font:14px Helvetica, Arial, sans-serif;
     text-align:center;
     line-height:18px;
     letter-spacing:1px;
     margin-top:30px;
-    text-transform:uppercase;
+    text-transform:none;
 }
 
 .article-summary{
@@ -1119,7 +1119,7 @@ footer .footer-colophon{
     opacity:1;
     -ms-filter:none;
     filter:none;
-    border-top:1px solid #6699ff;
+    border-top:1px solid #ef3b2f;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;bottom:0;
@@ -1194,9 +1194,9 @@ footer .footer-colophon{
     
 
 hr {
-    color:#6699ff;
+    color:#ef3b2f;
     margin-bottom:3%;
-    border-top: 3px solid #6699ff;
+    border-top: 3px solid #ef3b2f;
 }
 @media (max-width: 480px) and (min-width: 320px){.article-summary{
     display:none;
@@ -1288,7 +1288,7 @@ figcaption a{
 }
 
 .about-staff{
-    font:18px 'Cormorant Garamond', serif;
+    font:18px Helvetica, Arial, sans-serif;
     padding:30px;
     letter-spacing:1px;
     text-align:center
@@ -1302,7 +1302,7 @@ figcaption a{
 }
 
 .about-credits ul{
-    font:small 'Cormorant Garamond', serif;
+    font:small Helvetica, Arial, sans-serif;
     padding:30px;
     letter-spacing:1px
 }
@@ -1313,7 +1313,7 @@ figcaption a{
     
 }.about-motto{
     text-align:center;
-    font:54px 'Cormorant Garamond', serif;
+    font:54px Helvetica, Arial, sans-serif;
     width:70%;
     position:relative;
     -webkit-transform:translateX(-50%);
@@ -1326,7 +1326,7 @@ figcaption a{
 }
 
 @media (max-width: 480px) and (min-width: 320px){.about-motto{
-    font:22px 'Cormorant Garamond', serif;
+    font:22px Helvetica, Arial, sans-serif;
     margin-top:70px
 }
     
@@ -1421,7 +1421,7 @@ progress{
     appearance:none;
     border:none;
     background-color:transparent;
-    color:#6699ff;
+    color:#ef3b2f;
 }
 
 progress::-webkit-progress-bar{
@@ -1429,7 +1429,7 @@ progress::-webkit-progress-bar{
 }
 
 progress::-webkit-progress-value{
-    background-color:#6699ff;
+    background-color:#ef3b2f;
 }
 
 progress::-moz-progress-bar{
@@ -1455,7 +1455,7 @@ progress::-moz-progress-bar{
     -o-transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%);
-    font:18px 'Cormorant Garamond', serif;
+    font:18px Helvetica, Arial, sans-serif;
 }
 
 .issues-wrapper {
