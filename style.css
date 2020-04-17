@@ -7,7 +7,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-style:inherit;
     font-family:inherit;
     font-size:100%;
-    vertical-align:baseline
+    vertical-align:baseline;
+    letter-spacing: 1;
 }
 
 
@@ -92,12 +93,13 @@ body{
     -moz-box-sizing:border-box;
     box-sizing:border-box;
     margin:0;
+    
     -webkit-transition:background 0.2s ease;
     -moz-transition:background 0.2s ease;
     -o-transition:background 0.2s ease;
     -ms-transition:background 0.2s ease;
     transition:background 0.2s ease;}
-@media (max-width: 480px) and (min-width: 320px){body{line-height:28px}
+@media (max-width: 480px) and (min-width: 320px){body{line-height:32px; letter-spacing: 1;}
 }body > #wrapper{height:auto;min-height:100%}
 @font-face{
     font-family:'Maria Pro';src:url("../fonts/maria.eot");src:url("../fonts/maria.eot?#iefix") format('embedded-opentype'),url("../fonts/maria.woff") format('woff'),url("../fonts/maria.ttf") format('truetype'),url("../fonts/maria.svg#Maria Pro") format('svg');
@@ -152,7 +154,7 @@ body{
 
 @media (max-width: 480px) and (min-width: 320px){.index-masthead-avery{
     font:24px Helvetica,Arial,sans-serif;
-    letter-spacing:0;
+    letter-spacing:1px;
     width:100%;
     text-align:center;
     background:#ffffff;
@@ -174,7 +176,7 @@ body{
     width:70%;
     font:54px Helvetica,Arial,sans-serif;
     line-height: 120%;
-    letter-spacing:0.5px;
+    letter-spacing:1px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
@@ -281,7 +283,7 @@ body{
 .index{
     font-size:25px;
     line-height:120%;
-    letter-spacing:0.5px;
+    letter-spacing:1px;
     -webkit-transition:0.2s ease;
     -moz-transition:0.2s ease;
     -o-transition:0.2s ease;
@@ -291,7 +293,7 @@ body{
 
 @media (max-width: 480px) and (min-width: 320px){.index{
     font:24px Helvetica,Arial,sans-serif;
-    letter-spacing:0;
+    letter-spacing:1;
     line-height:125%;
 }
     
@@ -309,7 +311,7 @@ body{
     
 }.author{
     font-family:Helvetica, Arial, sans-serif;
-    letter-spacing:0.5px;
+    letter-spacing:1px;
     line-height: 150%;
     -webkit-transition:0.2s ease;
     -moz-transition:0.2s ease;
@@ -325,7 +327,7 @@ body{
 @media (max-width: 480px) and (min-width: 320px){.author{
     font:24px 
     font-family:Helvetica, Arial, sans-serif;
-    letter-spacing:0
+    letter-spacing:1
 }
     
 }.post{
@@ -556,7 +558,7 @@ footer .footer-colophon{
 .search-results{
     font:54px Helvetica,Arial,sans-serif;
     padding:30px;
-    letter-spacing:0.5px;
+    letter-spacing:1px;
     width:70%;
     position:relative;
     left:50%;
@@ -916,7 +918,7 @@ footer .footer-colophon{
     
 }.article-title{
     display:inline-block;
-    letter-spacing:0.5px;
+    letter-spacing:1px;
     font:62px Helvetica,Arial,sans-serif;
     line-height:115%;
 }
@@ -928,16 +930,18 @@ footer .footer-colophon{
     
 }@media (max-width: 480px) and (min-width: 320px){.article-title{
     font-size:22px;
-    letter-spacing:0;
+    letter-spacing:1;
     line-height:120%;
 }
     
 }.article-author{
     font:54px Helvetica, Arial, sans-serif;
     margin:0;
-    line-height:60px;
+    padding-top: 20px;
+    line-height:45px;
     text-transform:uppercase;
     position:relative;
+    letter-spacing: 1px;
 }
 
 @media (min-width : 480px) and (max-width : 1200px){.article-author{
@@ -1039,6 +1043,8 @@ footer .footer-colophon{
 }.article-body p{
     margin:0;
     text-indent:7%;
+    line-height:30px; 
+    letter-spacing: 0.3px;
 }
 
 .article-body p:first-of-type{
@@ -1097,7 +1103,7 @@ footer .footer-colophon{
     margin-top:20px;
     font:15px Helvetica, Arial, sans-serif;
     letter-spacing:1px;
-    line-height:20px;
+    line-height:26px;
     text-transform:none;
 }
 
@@ -1246,6 +1252,7 @@ figcaption a{
 .footnotes{
     margin-top:30px;
     line-height:16px;
+    
 }
 
 .footnotes hr{
@@ -1262,7 +1269,8 @@ figcaption a{
 }
 
 .footnotes a{
-    word-wrap:break-word
+    word-wrap:break-word;
+    line-height: 2px;
 }
 
 .about-overview{
